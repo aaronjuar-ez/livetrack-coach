@@ -104,13 +104,25 @@ class GarminMcpClient:
         result = resp.get("result") or {}
         if result.get("isError"):
             raise McpError(f"{name}: {_text_of(result)[:300]}")
-        if "structuredContent" in result:
-            return result["structuredContent"]
-        text = _text_of(result)
-        try:
-            return json.loads(text)
-        except ValueError:
-            return text
+        return _unwrap(result)
+
+
+def _unwrap(result: dict[str, Any]) -> Any:
+    """FastMCP wraps a tool's string return as structuredContent {"result": "<json text>"}
+    alongside the text content; either way the payload is JSON text."""
+    sc = result.get("structuredContent")
+    if isinstance(sc, dict) and set(sc) == {"result"} and isinstance(sc["result"], str):
+        return _loads_or_text(sc["result"])
+    if sc is not None:
+        return sc
+    return _loads_or_text(_text_of(result))
+
+
+def _loads_or_text(text: str) -> Any:
+    try:
+        return json.loads(text)
+    except ValueError:
+        return text
 
 
 def _text_of(result: dict[str, Any]) -> str:
@@ -227,20 +239,30 @@ def fit_athlete(client: GarminMcpClient, days: int = 120, max_split_runs: int = 
 
 
 def refresh_readiness(client: GarminMcpClient, athlete: Athlete, today: date | None = None) -> None:
+    """Latest readiness and HRV. Garmin posts both after the night's sleep, so
+    if today has nothing yet (early morning, or UTC already rolled over) the
+    previous day is used."""
     today = today or date.today()
-    try:
-        tr = client.call_tool("get_training_readiness", {"date": today.isoformat()})
+    for day in (today, today - timedelta(days=1)):
+        try:
+            tr = client.call_tool("get_training_readiness", {"date": day.isoformat()})
+        except McpError as exc:
+            log.warning("training readiness %s: %s", day, exc)
+            continue
         if isinstance(tr, list) and tr:
             latest = max(tr, key=lambda r: r.get("timestamp") or "")
             athlete.readiness_score = latest.get("score")
             athlete.readiness_level = latest.get("level")
-    except McpError as exc:
-        log.warning("training readiness: %s", exc)
-    try:
-        hrv = client.call_tool("get_hrv_data", {"date": today.isoformat()})
-        if isinstance(hrv, dict):
+            athlete.readiness_date = day.isoformat()
+            break
+    for day in (today, today - timedelta(days=1)):
+        try:
+            hrv = client.call_tool("get_hrv_data", {"date": day.isoformat()})
+        except McpError as exc:
+            log.warning("hrv %s: %s", day, exc)
+            continue
+        if isinstance(hrv, dict) and hrv.get("last_night_avg_hrv_ms") is not None:
             athlete.hrv_last_night_ms = hrv.get("last_night_avg_hrv_ms")
             athlete.hrv_weekly_avg_ms = hrv.get("weekly_avg_hrv_ms")
             athlete.hrv_status = hrv.get("status")
-    except McpError as exc:
-        log.warning("hrv: %s", exc)
+            break

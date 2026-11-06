@@ -15,7 +15,9 @@ def _sse(obj):
 
 
 def _tool_result(payload):
-    return {"result": {"content": [{"type": "text", "text": json.dumps(payload)}]}}
+    text = json.dumps(payload)
+    # FastMCP shape: text content plus structuredContent {"result": "<same text>"}
+    return {"result": {"content": [{"type": "text", "text": text}], "structuredContent": {"result": text}}}
 
 
 @respx.mock

@@ -177,6 +177,7 @@ class Athlete:
     fade_distance_m: float | None = None
     readiness_score: float | None = None
     readiness_level: str | None = None
+    readiness_date: str | None = None
     hrv_last_night_ms: float | None = None
     hrv_weekly_avg_ms: float | None = None
     hrv_status: str | None = None
@@ -209,10 +210,12 @@ class Athlete:
             out["d_prime_m"] = round(self.d_prime_m or 0)
         if self.lt_hr_bpm:
             out["lt_hr_bpm"] = self.lt_hr_bpm
+        if self.hr_slope is not None:
+            out["hr_model"] = f"HR = {self.hr_intercept:.0f} + {self.hr_slope:.1f} x speed(m/s), r2 {self.hr_fit_r2}"
         if self.fade_distance_m:
             out["usual_fade_km"] = round(self.fade_distance_m / 1000, 1)
         if self.readiness_score is not None:
-            out["readiness"] = {"score": self.readiness_score, "level": self.readiness_level}
+            out["readiness"] = {"score": self.readiness_score, "level": self.readiness_level, "date": self.readiness_date}
         if self.hrv_last_night_ms:
             out["hrv_ms"] = {"last_night": self.hrv_last_night_ms, "weekly": self.hrv_weekly_avg_ms, "status": self.hrv_status}
         return out

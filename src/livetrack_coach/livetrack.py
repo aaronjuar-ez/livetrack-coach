@@ -384,7 +384,8 @@ def poll_session(
             wait = backoff.success()
         except LiveTrackError as exc:
             wait = backoff.failure()
-            on_points([], error=str(exc)) if _accepts_error(on_points) else None
+            if _accepts_error(on_points):
+                on_points([], error=str(exc))
         if clock() - last_new > idle_timeout_s:
             return
         sleep(wait)

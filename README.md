@@ -116,9 +116,11 @@ Pulled from your running [garmin-connect-mcp](https://github.com/aaronjuar-ez/ga
 | Critical speed `CS`, `D'` | Least squares on distance = CS·t + D' over personal records with durations between 2 and 25 min (1K, mile, 5K for most runners). |
 | HR ~ speed | Linear fit of lap average HR on lap average speed over laps ≥ 4 min and ≥ 1.5 m/s, from the last 30 runs. Gives the expected HR for a pace. |
 | Usual fade distance | Per run ≥ 6 km with ≥ 4 laps: steady speed = median lap speed excluding first and last lap; the fade point is the start of the first lap more than 5% slower than that while lap HR is within 2 bpm of the median (an easy-down with falling HR does not count). Reported if ≥ 40% of eligible runs fade, as the median distance. |
-| Readiness, HRV, LT HR, weight, max HR, last 5 runs | Taken as reported; readiness uses the latest intraday record. |
+| Readiness, HRV, LT HR, weight, max HR, last 5 runs | Taken as reported; readiness uses the latest intraday record. Both readiness and HRV fall back to the previous day when today has nothing yet. |
 
 Runs faster than 2:47/km, shorter than 1 km / 5 min or longer than 6 h are discarded as bad uploads. The result is `athlete.json`; `run` works without it but then has no W'bal and no HR baseline.
+
+On this account (164 runs over 700 days, Nov 2026) the fit gives CP 369 W / W' 8.7 kJ, CS 3.63 m/s (4:35/km) / D' 231 m, HR ≈ 93 + 20.9 × speed (r² 0.50: lap averages mix intervals and easy runs, so treat `hr_over_expected` as a coarse signal), LT HR 184, max HR 197; no usual fade distance, because fewer than 40% of runs ≥ 6 km show a held-HR slowdown. `show-athlete` prints the full file.
 
 ### Feature layer (`features.py`, no model calls)
 
