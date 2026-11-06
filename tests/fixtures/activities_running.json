@@ -1,0 +1,542 @@
+[
+ {
+  "id": 24970675996,
+  "name": "Riverside - Anaerobic 8x200m - WALK 90s - ea",
+  "start_time": "2026-11-04 17:15:23",
+  "distance_meters": 6468.10986328125,
+  "duration_seconds": 2169.2041015625,
+  "avg_hr_bpm": 156.0,
+  "max_hr_bpm": 195.0
+ },
+ {
+  "id": 24958908372,
+  "name": "Riverside Running",
+  "start_time": "2026-11-03 17:15:21",
+  "distance_meters": 10076.0302734375,
+  "duration_seconds": 2973.60595703125,
+  "avg_hr_bpm": 166.0,
+  "max_hr_bpm": 180.0
+ },
+ {
+  "id": 24934669235,
+  "name": "Riverside Running",
+  "start_time": "2026-11-01 16:20:59",
+  "distance_meters": 6862.97998046875,
+  "duration_seconds": 2078.7041015625,
+  "avg_hr_bpm": 159.0,
+  "max_hr_bpm": 178.0
+ },
+ {
+  "id": 24911008277,
+  "name": "Riverside Running",
+  "start_time": "2026-10-30 18:11:39",
+  "distance_meters": 1227.4200439453125,
+  "duration_seconds": 394.8330078125,
+  "avg_hr_bpm": 156.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 24910910695,
+  "name": "Riverside - Anaerobic 6x200m - easy means EA",
+  "start_time": "2026-10-30 17:24:56",
+  "distance_meters": 5888.22021484375,
+  "duration_seconds": 2004.93798828125,
+  "avg_hr_bpm": 153.0,
+  "max_hr_bpm": 194.0
+ },
+ {
+  "id": 24899901549,
+  "name": "Riverside Running",
+  "start_time": "2026-10-29 17:19:04",
+  "distance_meters": 10076.349609375,
+  "duration_seconds": 2925.2900390625,
+  "avg_hr_bpm": 163.0,
+  "max_hr_bpm": 180.0
+ },
+ {
+  "id": 24888087155,
+  "name": "Riverside Running",
+  "start_time": "2026-10-28 16:54:46",
+  "distance_meters": 7028.22998046875,
+  "duration_seconds": 1990.5789794921875,
+  "avg_hr_bpm": 168.0,
+  "max_hr_bpm": 185.0
+ },
+ {
+  "id": 24876416239,
+  "name": "Riverside Running",
+  "start_time": "2026-10-27 17:55:59",
+  "distance_meters": 6869.990234375,
+  "duration_seconds": 1931.6629638671875,
+  "avg_hr_bpm": 168.0,
+  "max_hr_bpm": 190.0
+ },
+ {
+  "id": 24838747097,
+  "name": "Riverside Running",
+  "start_time": "2026-10-24 09:54:12",
+  "distance_meters": 2433.300048828125,
+  "duration_seconds": 750.9199829101562,
+  "avg_hr_bpm": 158.0,
+  "max_hr_bpm": 171.0
+ },
+ {
+  "id": 24837934153,
+  "name": "Riverside Running",
+  "start_time": "2026-10-24 07:02:21",
+  "distance_meters": 12909.7900390625,
+  "duration_seconds": 4979.216796875,
+  "avg_hr_bpm": 146.0,
+  "max_hr_bpm": 182.0
+ },
+ {
+  "id": 24829427795,
+  "name": "Riverside Running",
+  "start_time": "2026-10-23 13:41:20",
+  "distance_meters": 9682.099609375,
+  "duration_seconds": 2779.925048828125,
+  "avg_hr_bpm": 171.0,
+  "max_hr_bpm": 183.0
+ },
+ {
+  "id": 24809713437,
+  "name": "Riverside Running",
+  "start_time": "2026-10-21 19:37:04",
+  "distance_meters": 2033.3599853515625,
+  "duration_seconds": 604.3790283203125,
+  "avg_hr_bpm": 163.0,
+  "max_hr_bpm": 175.0
+ },
+ {
+  "id": 24809005710,
+  "name": "Riverside Running",
+  "start_time": "2026-10-21 16:55:06",
+  "distance_meters": 2322.969970703125,
+  "duration_seconds": 669.4310302734375,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 24773620630,
+  "name": "Riverside Running",
+  "start_time": "2026-10-18 16:56:49",
+  "distance_meters": 2492.449951171875,
+  "duration_seconds": 737.1599731445312,
+  "avg_hr_bpm": 168.0,
+  "max_hr_bpm": 179.0
+ },
+ {
+  "id": 24759818239,
+  "name": "Riverside Running",
+  "start_time": "2026-10-17 10:30:44",
+  "distance_meters": 5249.93994140625,
+  "duration_seconds": 1599.5030517578125,
+  "avg_hr_bpm": 169.0,
+  "max_hr_bpm": 186.0
+ },
+ {
+  "id": 24740077624,
+  "name": "Riverside Running",
+  "start_time": "2026-10-15 16:48:04",
+  "distance_meters": 11686.599609375,
+  "duration_seconds": 3713.64111328125,
+  "avg_hr_bpm": 161.0,
+  "max_hr_bpm": 185.0
+ },
+ {
+  "id": 24692016743,
+  "name": "Riverside Running",
+  "start_time": "2026-10-11 18:09:50",
+  "distance_meters": 7260.56982421875,
+  "duration_seconds": 2173.216064453125,
+  "avg_hr_bpm": 163.0,
+  "max_hr_bpm": 183.0
+ },
+ {
+  "id": 24658291047,
+  "name": "Riverside - Easy 8 km - HR under 150",
+  "start_time": "2026-10-08 18:16:57",
+  "distance_meters": 6054.41015625,
+  "duration_seconds": 1860.675048828125,
+  "avg_hr_bpm": 165.0,
+  "max_hr_bpm": 183.0
+ },
+ {
+  "id": 24646648355,
+  "name": "Riverside - Easy jog 30 min - HR under 148",
+  "start_time": "2026-10-07 17:28:47",
+  "distance_meters": 7259.47021484375,
+  "duration_seconds": 2281.008056640625,
+  "avg_hr_bpm": 163.0,
+  "max_hr_bpm": 180.0
+ },
+ {
+  "id": 24634421764,
+  "name": "Riverside - Anaerobic 8x200m - WALK the rest",
+  "start_time": "2026-10-06 17:53:19",
+  "distance_meters": 9275.1201171875,
+  "duration_seconds": 3151.364990234375,
+  "avg_hr_bpm": 160.0,
+  "max_hr_bpm": 194.0
+ },
+ {
+  "id": 24523829797,
+  "name": "Riverside - Anaerobic 6x200m - easy means EA",
+  "start_time": "2026-09-27 17:19:20",
+  "distance_meters": 8065.47021484375,
+  "duration_seconds": 2560.070068359375,
+  "avg_hr_bpm": 161.0,
+  "max_hr_bpm": 195.0
+ },
+ {
+  "id": 24499416078,
+  "name": "Riverside Running",
+  "start_time": "2026-09-25 16:55:18",
+  "distance_meters": 9674.0302734375,
+  "duration_seconds": 2929.39990234375,
+  "avg_hr_bpm": 168.0,
+  "max_hr_bpm": 183.0
+ },
+ {
+  "id": 24463937395,
+  "name": "Riverside Running",
+  "start_time": "2026-09-22 17:57:43",
+  "distance_meters": 10079.509765625,
+  "duration_seconds": 2962.35791015625,
+  "avg_hr_bpm": 165.0,
+  "max_hr_bpm": 180.0
+ },
+ {
+  "id": 24414186535,
+  "name": "Riverside - Anaerobic 6x200m - easy means EA",
+  "start_time": "2026-09-18 18:19:15",
+  "distance_meters": 8066.830078125,
+  "duration_seconds": 2569.85693359375,
+  "avg_hr_bpm": 157.0,
+  "max_hr_bpm": 197.0
+ },
+ {
+  "id": 24364857697,
+  "name": "Riverside - Anaerobic 10K - 8x200m",
+  "start_time": "2026-09-14 17:53:04",
+  "distance_meters": 10075.099609375,
+  "duration_seconds": 2858.424072265625,
+  "avg_hr_bpm": 165.0,
+  "max_hr_bpm": 185.0
+ },
+ {
+  "id": 24352565690,
+  "name": "Riverside Running",
+  "start_time": "2026-09-13 18:34:24",
+  "distance_meters": 10077.080078125,
+  "duration_seconds": 2949.76611328125,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 24328034861,
+  "name": "Riverside Running",
+  "start_time": "2026-09-11 18:40:10",
+  "distance_meters": 10075.6904296875,
+  "duration_seconds": 3022.25,
+  "avg_hr_bpm": 161.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 24303832572,
+  "name": "Riverside Running",
+  "start_time": "2026-09-09 17:15:57",
+  "distance_meters": 5091.72021484375,
+  "duration_seconds": 1514.2239990234375,
+  "avg_hr_bpm": 166.0,
+  "max_hr_bpm": 181.0
+ },
+ {
+  "id": 24291714460,
+  "name": "Riverside Running",
+  "start_time": "2026-09-08 18:22:00",
+  "distance_meters": 10074.2900390625,
+  "duration_seconds": 2978.722900390625,
+  "avg_hr_bpm": 162.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 24278522782,
+  "name": "Riverside Running",
+  "start_time": "2026-09-07 18:21:38",
+  "distance_meters": 10071.419921875,
+  "duration_seconds": 3003.0458984375,
+  "avg_hr_bpm": 162.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 24241588437,
+  "name": "Riverside Running",
+  "start_time": "2026-09-04 19:20:53",
+  "distance_meters": 10526.83984375,
+  "duration_seconds": 3093.498046875,
+  "avg_hr_bpm": 161.0,
+  "max_hr_bpm": 180.0
+ },
+ {
+  "id": 24217798962,
+  "name": "Riverside Running",
+  "start_time": "2026-09-02 18:23:26",
+  "distance_meters": 10155.1796875,
+  "duration_seconds": 2948.327880859375,
+  "avg_hr_bpm": 160.0,
+  "max_hr_bpm": 175.0
+ },
+ {
+  "id": 24204720749,
+  "name": "Riverside Running",
+  "start_time": "2026-09-01 18:46:11",
+  "distance_meters": 10082.080078125,
+  "duration_seconds": 2901.7119140625,
+  "avg_hr_bpm": 163.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 24191164681,
+  "name": "Riverside Running",
+  "start_time": "2026-08-31 18:35:43",
+  "distance_meters": 10080.8896484375,
+  "duration_seconds": 2975.656005859375,
+  "avg_hr_bpm": 159.0,
+  "max_hr_bpm": 174.0
+ },
+ {
+  "id": 24179020008,
+  "name": "Riverside Running",
+  "start_time": "2026-08-30 19:09:19",
+  "distance_meters": 10081.4697265625,
+  "duration_seconds": 2974.762939453125,
+  "avg_hr_bpm": 161.0,
+  "max_hr_bpm": 178.0
+ },
+ {
+  "id": 24154849261,
+  "name": "Riverside Running",
+  "start_time": "2026-08-28 19:06:31",
+  "distance_meters": 10088.9501953125,
+  "duration_seconds": 2990.39404296875,
+  "avg_hr_bpm": 163.0,
+  "max_hr_bpm": 178.0
+ },
+ {
+  "id": 24131247510,
+  "name": "Riverside Running",
+  "start_time": "2026-08-26 18:57:33",
+  "distance_meters": 10077.5498046875,
+  "duration_seconds": 2923.23291015625,
+  "avg_hr_bpm": 168.0,
+  "max_hr_bpm": 183.0
+ },
+ {
+  "id": 24118155645,
+  "name": "Riverside Running",
+  "start_time": "2026-08-25 19:05:52",
+  "distance_meters": 10078.0595703125,
+  "duration_seconds": 3000.364990234375,
+  "avg_hr_bpm": 167.0,
+  "max_hr_bpm": 180.0
+ },
+ {
+  "id": 24092127866,
+  "name": "Riverside Running",
+  "start_time": "2026-08-23 19:13:49",
+  "distance_meters": 10080.419921875,
+  "duration_seconds": 3047.72900390625,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 179.0
+ },
+ {
+  "id": 24067401069,
+  "name": "Riverside Running",
+  "start_time": "2026-08-21 19:18:19",
+  "distance_meters": 10080.3701171875,
+  "duration_seconds": 3013.84912109375,
+  "avg_hr_bpm": 165.0,
+  "max_hr_bpm": 179.0
+ },
+ {
+  "id": 24056085160,
+  "name": "Riverside Running",
+  "start_time": "2026-08-20 19:29:09",
+  "distance_meters": 8065.41015625,
+  "duration_seconds": 2525.02392578125,
+  "avg_hr_bpm": 160.0,
+  "max_hr_bpm": 176.0
+ },
+ {
+  "id": 24030908104,
+  "name": "Riverside Running",
+  "start_time": "2026-08-18 19:15:20",
+  "distance_meters": 10067.349609375,
+  "duration_seconds": 3069.669921875,
+  "avg_hr_bpm": 159.0,
+  "max_hr_bpm": 174.0
+ },
+ {
+  "id": 24017443687,
+  "name": "Riverside Running",
+  "start_time": "2026-08-17 19:19:14",
+  "distance_meters": 10068.1298828125,
+  "duration_seconds": 2973.73388671875,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 179.0
+ },
+ {
+  "id": 24005169159,
+  "name": "Riverside Running",
+  "start_time": "2026-08-16 19:14:06",
+  "distance_meters": 10236.8203125,
+  "duration_seconds": 3028.4951171875,
+  "avg_hr_bpm": 162.0,
+  "max_hr_bpm": 176.0
+ },
+ {
+  "id": 23993075501,
+  "name": "Riverside Running",
+  "start_time": "2026-08-15 19:12:11",
+  "distance_meters": 10072.4697265625,
+  "duration_seconds": 2942.075927734375,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 179.0
+ },
+ {
+  "id": 23980964589,
+  "name": "Riverside Running",
+  "start_time": "2026-08-14 19:32:58",
+  "distance_meters": 10078.0595703125,
+  "duration_seconds": 3046.283935546875,
+  "avg_hr_bpm": 165.0,
+  "max_hr_bpm": 183.0
+ },
+ {
+  "id": 23969353351,
+  "name": "Riverside Running",
+  "start_time": "2026-08-13 19:08:33",
+  "distance_meters": 10075.3896484375,
+  "duration_seconds": 2985.52587890625,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 178.0
+ },
+ {
+  "id": 23930532579,
+  "name": "Riverside Running",
+  "start_time": "2026-08-10 19:15:53",
+  "distance_meters": 10082.3701171875,
+  "duration_seconds": 3069.39892578125,
+  "avg_hr_bpm": 165.0,
+  "max_hr_bpm": 178.0
+ },
+ {
+  "id": 23893729608,
+  "name": "Riverside Running",
+  "start_time": "2026-08-07 19:16:43",
+  "distance_meters": 10074.1796875,
+  "duration_seconds": 3043.285888671875,
+  "avg_hr_bpm": 161.0,
+  "max_hr_bpm": 176.0
+ },
+ {
+  "id": 23882116281,
+  "name": "Riverside Running",
+  "start_time": "2026-08-06 19:12:57",
+  "distance_meters": 10142.7900390625,
+  "duration_seconds": 3036.4990234375,
+  "avg_hr_bpm": 161.0,
+  "max_hr_bpm": 177.0
+ },
+ {
+  "id": 23869635499,
+  "name": "Riverside - Sprint",
+  "start_time": "2026-08-05 18:57:26",
+  "distance_meters": 10882.3896484375,
+  "duration_seconds": 3328.135009765625,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 181.0
+ },
+ {
+  "id": 23856799924,
+  "name": "Riverside Running",
+  "start_time": "2026-08-04 19:38:54",
+  "distance_meters": 5636.81005859375,
+  "duration_seconds": 1685.616943359375,
+  "avg_hr_bpm": 162.0,
+  "max_hr_bpm": 176.0
+ },
+ {
+  "id": 23831033027,
+  "name": "Riverside - Long Run",
+  "start_time": "2026-08-02 18:19:59",
+  "distance_meters": 21101.7109375,
+  "duration_seconds": 6340.8359375,
+  "avg_hr_bpm": 166.0,
+  "max_hr_bpm": 178.0
+ },
+ {
+  "id": 23818866748,
+  "name": "Riverside - Tempo",
+  "start_time": "2026-08-01 19:14:00",
+  "distance_meters": 10066.9697265625,
+  "duration_seconds": 2936.569091796875,
+  "avg_hr_bpm": 167.0,
+  "max_hr_bpm": 185.0
+ },
+ {
+  "id": 23795701028,
+  "name": "Riverside Running",
+  "start_time": "2026-07-30 19:08:30",
+  "distance_meters": 10069.6201171875,
+  "duration_seconds": 2931.216064453125,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 178.0
+ },
+ {
+  "id": 23783542433,
+  "name": "Riverside - Base",
+  "start_time": "2026-07-29 18:56:55",
+  "distance_meters": 10073.2802734375,
+  "duration_seconds": 3018.31591796875,
+  "avg_hr_bpm": 165.0,
+  "max_hr_bpm": 183.0
+ },
+ {
+  "id": 23770957617,
+  "name": "Riverside Running",
+  "start_time": "2026-07-28 19:16:08",
+  "distance_meters": 10073.1103515625,
+  "duration_seconds": 3030.405029296875,
+  "avg_hr_bpm": 167.0,
+  "max_hr_bpm": 181.0
+ },
+ {
+  "id": 23757630554,
+  "name": "Riverside - Long Run",
+  "start_time": "2026-07-27 18:41:00",
+  "distance_meters": 14096.349609375,
+  "duration_seconds": 4376.0048828125,
+  "avg_hr_bpm": 164.0,
+  "max_hr_bpm": 179.0
+ },
+ {
+  "id": 23710265692,
+  "name": "Riverside Running",
+  "start_time": "2026-07-23 18:57:48",
+  "distance_meters": 10069.080078125,
+  "duration_seconds": 3052.694091796875,
+  "avg_hr_bpm": 163.0,
+  "max_hr_bpm": 180.0
+ },
+ {
+  "id": 23698133558,
+  "name": "Riverside Running",
+  "start_time": "2026-07-22 19:01:02",
+  "distance_meters": 10068.9697265625,
+  "duration_seconds": 3102.320068359375,
+  "avg_hr_bpm": 162.0,
+  "max_hr_bpm": 178.0
+ }
+]

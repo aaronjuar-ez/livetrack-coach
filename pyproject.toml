@@ -1,0 +1,28 @@
+[project]
+name = "livetrack-coach"
+version = "0.1.0"
+description = "Live run coach: Garmin LiveTrack poller, deterministic fatigue features, LLM call-outs over iMessage"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.27,<1",
+]
+
+[project.optional-dependencies]
+gmail = [
+    "google-api-python-client>=2.100",
+    "google-auth-oauthlib>=1.2",
+]
+
+[project.scripts]
+livetrack-coach = "livetrack_coach.cli:main"
+
+[dependency-groups]
+dev = ["pytest>=8", "respx>=0.21"]
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
